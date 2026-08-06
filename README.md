@@ -88,3 +88,4 @@ Ao concluir esta competência, a solução de referência será publicada em:
 ---
 
 > Inspirado no tutorial [Construindo APIs robustas utilizando Python](https://github.com/luizalabs/tutorial-python-brasil) do LuizaLabs.
+
