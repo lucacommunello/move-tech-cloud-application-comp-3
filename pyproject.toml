@@ -22,10 +22,6 @@ httpx = "^0.28.0"
 [tool.pytest.ini_options]
 pythonpath = ["."]
 
-[tool.pytest.ini_options]
-pythonpath = ["."]
-
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
