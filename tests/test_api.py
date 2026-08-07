@@ -6,7 +6,7 @@ client = TestClient(app)
 def test_health():
     r = client.get("/health")
     assert r.status_code == 200
-    assert r.json() == {"status": "ok"}
+    assert r.json() == {"database": "ok", "status": "ok"}
 
 def test_criar_e_listar_pedido():
     r = client.post("/orders", json={"customer": "Teste"})
